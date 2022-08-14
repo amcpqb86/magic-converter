@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "puppeteer": "^16.1.0",
+    "puppeteer-core": "^16.1.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
