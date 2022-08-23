@@ -1,11 +1,14 @@
 # Magic Converter
 
-### Convertisseur de données entre plusieurs services Magic The Gathering
+##### Convertisseur de données entre plusieurs services Magic The Gathering
 
+### Stack Technique :
 
+- Scrapping : Puppeteer
+- Front : ReactTS & TailwindCSS
+- API : [scryfall.com](https://scryfall.com/)
 
-
-#### Tecnique :
+### Lancement
 
 - Lancement du serveur web (React)
 ```commandline
