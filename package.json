@@ -6,6 +6,7 @@
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "start": "nodemon index.js"
-  }
+    "start": "nodemon tools/index.js"
+  },
+  "devDependencies": {}
 }

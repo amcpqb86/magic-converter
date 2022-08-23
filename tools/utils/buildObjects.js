@@ -1,4 +1,4 @@
-const {getQuantityOfCards, getQuantityOfEachCategories} = require("../utils/getQuantities");
+const {getQuantityOfCards, getQuantityOfEachCategories} = require("./getQuantities");
 const util = require("util")
 
 let buildCategoriesAndCardsObject = (categoriesArray, cardsArray) => {

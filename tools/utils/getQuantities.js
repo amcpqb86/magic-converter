@@ -34,8 +34,6 @@ let getQuantityOfEachCategories = (categoriesArray) => {
     return categoriesWithQuantity
 }
 
-
-
 module.exports = {
     getQuantityOfEachCategories,
     getQuantityOfCards
