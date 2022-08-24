@@ -7,17 +7,14 @@
 - Scrapping : Puppeteer
 - Front : ReactTS & TailwindCSS
 - API : [scryfall.com](https://scryfall.com/)
+- Déploiement : [Heroku](heroku.com)
 
 ### Lancement
 
 - Lancement du serveur web (React)
 ```commandline
+cd front
 npm start
-```
-
-ou 
-```commandline
-yarn start
 ```
 
 - Lancer la détection des fichiers pour Tailwind
