@@ -1,15 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Header from "./components/Header";
 import Converter from "./components/Converter";
+import ChangeSource from "./components/ChangeSource";
 
 function App() {
-  return (
+
+    let [sourceType, setSourceType] = useState("moxfield")
+
+    return (
       <>
         <Header/>
-        <Converter/>
+          <ChangeSource sourceState={setSourceType}/>
+        <Converter type={sourceType}/>
       </>
-  );
+    );
 }
 
 export default App;

@@ -1,7 +1,8 @@
 function Header() {
     return (
-        <div>
-            <h1 className="font-medium leading-tight text-5xl text-blue-600 m-8">
+        <div className="m-8 flex items-center">
+            <img src="img/blue-magic-logo.png" alt="logo" className="max-h-12"/>
+            <h1 className="font-medium leading-tight text-5xl text-blue-600 ml-5">
                 Magic Converter
             </h1>
         </div>

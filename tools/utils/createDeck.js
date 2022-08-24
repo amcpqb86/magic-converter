@@ -1,5 +1,5 @@
-let createDeck = (cards) => {
-    let textedDeck = "Deck"
+let createDeck = (cards, deckHeader) => {
+    let textedDeck = deckHeader ? "Deck" : ""
     for (let card of cards) {
         textedDeck += `\n${card.quantity} ${card.name}`
     }
