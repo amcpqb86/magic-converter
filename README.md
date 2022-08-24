@@ -6,7 +6,7 @@
 
 - Scrapping : Puppeteer
 - Front : ReactTS & TailwindCSS
-- API : [scryfall.com](https://scryfall.com/)
+- API : [Scryfall](https://scryfall.com/)
 - Déploiement : [Heroku](heroku.com)
 
 ### Lancement

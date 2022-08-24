@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "nodemon tools/index.js",
-    "deploy": "cd front ; npm start"
+    "deploy": "cd front ; npm install ; npm start"
   },
   "devDependencies": {}
 }

@@ -2,3 +2,5 @@
 node_modules
 front/node_modules
 front/.idea
+*.log
+tmp
