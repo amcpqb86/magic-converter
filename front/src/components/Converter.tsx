@@ -1,13 +1,13 @@
-import {runAll} from "../../../tools"
+import {runAll} from "../scrap"
 
 interface ConverterProps {
     type: string
 }
 
-let convertFromSource = async (source: string) => {
-    let sourceLink = document.getElementById("moxfield-link")
+let convertFromSource = async (sourceType: string) => {
+    let sourceLink = document.getElementById("source-link")
     document.getElementById("loaderInButton")!.style.display = "block"
-    if (source === "moxfield") {
+    if (sourceType === "moxfield") {
         await runAll(sourceLink).then((r: any) => {
             // @ts-ignore
             navigator.clipboard.writeText(r)
@@ -28,7 +28,7 @@ function Converter(props: ConverterProps) {
                 <input
                     type="text"
                     className="max-w-xl form-control block w-full px-4 py-2 text-xl font-normal text-blue-700 bg-white bg-clip-padding border border-solid border-blue-300 rounded transition ease-in-out focus:text-blue-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                    id="moxfield-link"
+                    id="source-link"
                     placeholder={`Lien ${props.type[0].toUpperCase() + props.type.substring(1).toLowerCase()}`}
                 />
                 <button

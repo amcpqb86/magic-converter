@@ -1,6 +1,6 @@
-const {buildCategoriesAndCardsObject} = require("../utils/buildObjects")
-const {getQuantityOfCards} = require("../utils/getQuantities")
-const {createDeck} = require("../utils/createDeck")
+const {buildCategoriesAndCardsObject} = require("./utils/buildObjects")
+const {getQuantityOfCards} = require("./utils/getQuantities")
+const {createDeck} = require("./utils/createDeck")
 
 
 const scraperObject = {

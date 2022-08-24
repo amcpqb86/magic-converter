@@ -1,5 +1,5 @@
-const browserObject = require('./scrap/browser')
-const scraperController = require('./scrap/pageController')
+const browserObject = require('./browser')
+const scraperController = require('./pageController')
 
 let runAll = async (url) => {
     let browserInstance = browserObject.startBrowser()
